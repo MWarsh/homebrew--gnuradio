@@ -2,8 +2,8 @@ require 'formula'
 
 class Gnuradio < Formula
   homepage 'http://gnuradio.org'
-  url  'http://gnuradio.org/releases/gnuradio/gnuradio-3.7.7.1.tar.gz'
-  sha256 '2b27b13fc734ab5882e42c1661d433c0c097fd8b55b682f00626fa96c356584e'
+  url  'https://gnuradio.org/releases/gnuradio/gnuradio-3.7.9.tar.gz'
+  sha256 'b572873e7215c808fa314180da083a39a7b63adfc1069fe400ee8ff5999a31b0'
   head 'git://gnuradio.org/gnuradio/gnuradio.git'
 
   depends_on 'cmake' => :build
