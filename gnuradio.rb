@@ -4,7 +4,7 @@ class Gnuradio < Formula
   homepage 'http://gnuradio.org'
   url  'https://gnuradio.org/releases/gnuradio/gnuradio-3.7.9.tar.gz'
   sha256 'b572873e7215c808fa314180da083a39a7b63adfc1069fe400ee8ff5999a31b0'
-  head 'git://gnuradio.org/gnuradio/gnuradio.git'
+  head 'git://git.gnuradio.org/gnuradio'
 
   depends_on 'cmake' => :build
   depends_on 'scipy' => :python
